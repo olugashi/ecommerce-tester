@@ -25,20 +25,21 @@ const Item1 = () => (
           <Icon circular name="cart arrow down" size="large" />
         </List.Item>
       </List>
-    </div>
-    <div class="product-content">
-      <h3 class="ui header">
-        Text 1
-        <div href="#" class="sub header">
-          Text 2
+
+      <div class="product-content">
+        <h3 class="ui header">
+          Text 1
+          <div href="#" class="sub header">
+            Text 2
+          </div>
+        </h3>
+        <Rating icon="star" defaultRating={5} maxRating={5} />
+        <br />
+        <br />
+        <div class="price1">
+          $11.00
+          <span>$14.00</span>
         </div>
-      </h3>
-      <Rating icon="star" defaultRating={5} maxRating={5} />
-      <br />
-      <br />
-      <div class="price">
-        $11.00
-        <span>$14.00</span>
       </div>
     </div>
   </div>

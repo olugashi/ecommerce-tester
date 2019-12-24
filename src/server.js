@@ -8,7 +8,8 @@ app.get("/", function(request, response) {
   response.send("Hello World");
 });
 
-// Listen on port 8080
-var listener = app.listen(8080, function() {
+let port = process.env.PORT || 3000;
+
+var listener = app.listen(port, function() {
   console.log("Listening on port " + listener.address().port);
 });

@@ -8,8 +8,14 @@ const Items = () => (
     <Segment inverted color="teal" textAlign="left">
       Category 1
     </Segment>
-    <Grid>
+    <Grid Doubling container columns={3}>
       <Grid.Row columns={4}>
+        <Grid.Column>
+          <Item1 />
+        </Grid.Column>
+        <Grid.Column>
+          <Item1 />
+        </Grid.Column>
         <Grid.Column>
           <Item1 />
         </Grid.Column>

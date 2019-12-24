@@ -19,7 +19,8 @@
     "semantic-ui-carousel-react": "1.1.1",
     "semantic-ui-css": "2.4.1",
     "semantic-ui-react": "0.88.2",
-    "style-loader": "1.1.1"
+    "style-loader": "1.1.1",
+    "webpack": "4.41.4"
   },
   "devDependencies": {
     "typescript": "3.3.3"
@@ -27,5 +28,10 @@
   "scripts": {
     "start": "nodemon src/server.js"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

@@ -23,8 +23,9 @@ const ImageCarousel = () => (
     hasMasterSpinner
     interval={3000}
     isPlaying
+    infinite
   >
-    <Slider className={s.slider}>
+    <Slider class={s.slider}>
       <Slide tag="a" index={0}>
         <Image src="https://lorempixel.com/800/800/cats/0" />
       </Slide>

@@ -4,6 +4,7 @@ import Footer from "./Footer/index";
 import Header from "./Header/index";
 import Items from "./Item/index";
 import "./styles.scss";
+import "pure-react-carousel/dist/react-carousel.es.css";
 
 function App() {
   return (

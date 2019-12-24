@@ -23,16 +23,15 @@ const ImageCarousel = () => (
     hasMasterSpinner
     interval={3000}
     isPlaying
-    infinite
   >
-    <Slider class={s.slider}>
-      <Slide tag="a" index={0}>
-        <Image src="https://lorempixel.com/800/800/cats/0" />
+    <Slider className={s.slider}>
+      <Slide style={{ padding: "5em 0em", height: "300px" }} tag="a" index={0}>
+        <Image src="https://lorempixel.com/800/800/cats/0" size="small" />
       </Slide>
-      <Slide tag="a" index={1}>
+      <Slide style={{ padding: "5em 0em", height: "300px" }} tag="a" index={1}>
         <Image src="https://lorempixel.com/800/800/cats/1" />
       </Slide>
-      <Slide tag="a" index={2}>
+      <Slide style={{ padding: "5em 0em", height: "300px" }} tag="a" index={2}>
         <Image src="https://lorempixel.com/800/800/cats/2" />
       </Slide>
     </Slider>

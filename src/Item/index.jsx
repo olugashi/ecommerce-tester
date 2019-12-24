@@ -9,7 +9,7 @@ const Items = () => (
       Category 1
     </Segment>
     <Grid>
-      <Grid.Row doubling Containers columns={4}>
+      <Grid.Row columns={4}>
         <Grid.Column>
           <Item1 />
         </Grid.Column>

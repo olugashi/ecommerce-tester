@@ -3,8 +3,8 @@ import "./Item1.scss";
 import { Image, List, Rating, Icon } from "semantic-ui-react";
 
 const Item1 = () => (
-  <div class="product-grid5">
-    <div class="product-image5">
+  <div className="product-grid5">
+    <div className="product-image5">
       <Image
         className="pic-1"
         src="https://semantic-ui.com/images/wireframe/image.png"
@@ -21,9 +21,9 @@ const Item1 = () => (
         href="#"
       />
 
-      <span class="product-new-label">New</span>
+      <span className="product-new-label">New</span>
     </div>
-    <List class="social">
+    <List className="social">
       <List.Item as="li">
         <Icon circular name="eye" size="large" />
       </List.Item>
@@ -35,17 +35,17 @@ const Item1 = () => (
       </List.Item>
     </List>
 
-    <div class="product-content">
-      <h3 class="ui header">
+    <div className="product-content">
+      <h3 className="ui header">
         Text 1
-        <div href="#" class="sub header">
+        <div href="#" className="sub header">
           Text 2
         </div>
       </h3>
       <Rating icon="star" defaultRating={5} maxRating={5} />
       <br />
       <br />
-      <div class="price1">
+      <div className="price1">
         $11.00
         <span>$14.00</span>
       </div>
